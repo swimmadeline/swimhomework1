@@ -1,0 +1,53 @@
+
+html{
+    background-color:orange;
+    padding: 10px;
+    width: 900px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+body {
+    background-color: white;
+    padding: 1px;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+}
+
+hr {
+    border: solid green; 
+    width: 350px;
+}
+
+header {
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+
+}
+main {
+    background-color:white;
+    margin: 10px;
+}
+
+img {
+    width: 350px;
+}
+
+.div1 {
+    background-color: lightpink;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    border: 3px solid red;
+}
+
+.div2 {
+    background-color: lightpink;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    border: 3px solid red;
+}
