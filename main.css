@@ -38,17 +38,19 @@ img {
 }
 
 .div1 {
-    background-color: white;
-    margin: 5px;
-    padding: 5px;
+    border-style: solid;
+    border-color: red;
+    margin:5px; 
+    padding:5px;
     float: left;
-    border: 3px solid red;
+    width: 250px;
 }
 
 .div2 {
-    background-color:white;
-    margin: 5px;
-    padding: 5px;
+    border-style: solid;
+    border-color: red;
+    margin:5px; 
+    padding:5px;
     float: right;
-    border: 3px solid red;
+    width: 250px;
 }
