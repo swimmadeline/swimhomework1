@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+div {
+    margin: auto;
+    padding: 20px;
+    border: 3px solid green;
+    width: 40%;
+    text-align: left;
+}
+
+.first_level {
+    list-style-type: none;
+}
+
+.second_level {
+    list-style-type: circle;
+}
+
+.third_level {
+    list-style-type: square;
+}
