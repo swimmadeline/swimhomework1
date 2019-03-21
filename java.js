@@ -40,5 +40,5 @@ function myHandler(event) {
 
 function removeEventListener()
 {
-    ballon.removeEventListener("keyup", myHandler);
+    document.removeEventListener("keyup", myHandler);
 }
