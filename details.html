@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Details</title>
+    <link rel="stylesheet" type="text/css" href="setup.css">
+</head>
+<body>
+        <nav> <h>Contact Management</h>
+            <button id="index" class="button">Index</button>
+            <button id="new" class="button">New</button>
+        </nav>
+    <div class="details-main-content">
+        <div>
+            <div class="grey-container header">
+                Contact
+            </div>
+            <div class="details-container">
+                <label>Name : </label> <p id='detailsName'> </p><br><br>
+                <label>Email : </label> <p id='detailsEmail'> </p><br><br>
+                <label>Phone : </label> <p id='detailsPhone'> </p><br><br>
+            </div>
+            <div class="grey-container footer">
+                <button id="editFromDetails" class="edit">EDIT</button>
+                <button id="deleteFromDetails" class="delete">DELETE</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/5.11.1/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDmuKSx6SEQH1GdlQRioWTN0RB8RjNYyTk",
+    authDomain: "is445-project.firebaseapp.com",
+    databaseURL: "https://is445-project.firebaseio.com",
+    projectId: "is445-project",
+    storageBucket: "is445-project.appspot.com",
+    messagingSenderId: "579150457218",
+    appId: "1:579150457218:web:c516809387d1cd7a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="java.js"></script>
+</html>
